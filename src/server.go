@@ -10,5 +10,4 @@ func main() {
 	router = gin.Default()
 	initializeRoutes()
 	router.Run()
-
 }
