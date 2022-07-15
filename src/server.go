@@ -7,6 +7,7 @@ import (
 var router *gin.Engine
 
 func main() {
+	// test
 	router = gin.Default()
 	initializeRoutes()
 	router.Run()
